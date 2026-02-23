@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registratin Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;"><mark>Student Data Collection Form</mark></h1>
+    <p style="text-align: center;"><b>Please fill all the details carefully.</b> <i>All fields are mandatory</i>. <u>Make sure information is correct.</u>.</p><hr>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>Full Name: </label>
+            <input type="text"><br>
+            <br>
+            <label>Email: </label>
+            <input type="email"><br>
+            <br>
+            <label>Password: </label>
+            <input type="password"><br>
+            <br>
+            <label>Age: </label>
+            <input type="number"><br>
+            <br>
+            <label>Date of Birth: </label>
+            <input type="date"><br>
+            <br>
+            <label>Upload Photo: </label>
+            <input type="file"><br>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Academic Information</legend>
+            <label>Branch: </label>
+            <input type="radio" name = "Branch">
+            <label>BCA</label>
+            <input type="radio" name="Branch">
+            <label>BTech</label><br>
+            <br>
+            <label>Skills: </label>
+            <input type="checkbox">
+            <label>HTML</label>
+            <input type="checkbox">
+            <label>CSS</label>
+            <input type="checkbox">
+            <label>JavaScript</label>
+            <input type="checkbox">
+            <label>Python</label><br>
+            <br>
+            <label>Select Year: </label>
+            <select>
+                <option value="1">--Select Year--</option>
+                <option value="2">1st Year</option>
+                <option value="3">2nd Year</option>
+                <option value="4">3rd Year</option>
+                <option value="5">4th Year</option>
+            </select><br>
+            <br>
+            <label>Portfolio URL: </label>
+            <input type="url" placeholder="https://example.com"><br>
+            <br>
+            <label>Study Time: </label>
+            <input type="time"><br>
+            <br>
+            <label>Preferred Week: </label>
+            <input type="week"><br>
+            <br>
+            <label>Preferred Month: </label>
+            <input type="month"><br>
+            <br>
+            <label>Date & Time of Admission: </label>
+            <input type="datetime-local">
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Feedback Section</legend>
+            <label>Rate Your HTML Knowledge (0-100): </label>
+            <input type="range" min="0" max="100"><br>
+            <br>
+            <label>Write Your Feedback:</label><br>
+            <textarea name="" id="" cols="100" rows="5"></textarea><br>
+            <br>
+            <br>
+            <label><mark>Note:</mark> Range is between 0 to 10.</label><br>
+            <br>
+        </fieldset><br>
+        <center>
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Reset From">
+        </center>
+    </form><hr>
+    <p style="text-align: center;"><b>Thank you for registering!</b> <i>We will contact you soon</i>.</p>
+</body>
+</html>
